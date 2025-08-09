@@ -40,5 +40,13 @@ cd Diabetes-Predictor
 pip install -r requirements.txt
 
 #Run the script
-python diabetes_prediction.py
+python diabetes_prediction_jupyter_code.ipynb
 ```
+# Results
+1) Best Model: Logistic Regression with Engineered Features
+
+2) Test Accuracy: ~88%
+
+3) F1 Score: ~84%
+
+4) The most important predictors align with clinically recognized diabetes risk factors.
