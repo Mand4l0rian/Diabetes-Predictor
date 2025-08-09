@@ -1,18 +1,27 @@
-Overview:
+Overview
 This project predicts the likelihood of diabetes using the PIMA Indians Diabetes Dataset with an enhanced logistic regression model.
 It incorporates advanced preprocessing, class-specific missing value imputation, outlier handling, feature engineering, and hyperparameter tuning to improve prediction accuracy and interpretability.
 
-Dataset:
-1)Source: PIMA Indians Diabetes Dataset
-2)Features: 8 medical attributes (e.g., Glucose, BMI, Age)
-3)Target: Diabetes outcome (0 = No, 1 = Yes)
+Dataset
+Source: PIMA Indians Diabetes Dataset
 
-Key Features:
-1)Class-specific median imputation for missing values
-2)Winsorization for outlier handling
-3)Interaction, ratio, and polynomial feature creation
-4)Clinically relevant features such as HOMA-IR
-5)RobustScaler for scaling to handle outliers
-6)Logistic Regression with hyperparameter tuning using GridSearchCV
-7)Evaluation using Accuracy, F1 Score, and ROC-AUC metrics
-8)Feature importance analysis and visualization
+Features: 8 medical attributes (e.g., Glucose, BMI, Age)
+
+Target: Diabetes outcome (0 = No, 1 = Yes)
+
+Key Features
+Class-specific median imputation for missing values
+
+Winsorization for outlier handling
+
+Interaction, ratio, and polynomial feature creation
+
+Clinically relevant features such as HOMA-IR
+
+RobustScaler for scaling to handle outliers
+
+Logistic Regression with hyperparameter tuning using GridSearchCV
+
+Evaluation using Accuracy, F1 Score, and ROC-AUC metrics
+
+Feature importance analysis and visualization
