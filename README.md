@@ -31,10 +31,10 @@ It incorporates advanced preprocessing, class-specific missing value imputation,
 8) Feature importance analysis and visualization
 
 # Installation and Usage:
-```
+```bash
 #Clone the repository
-git clone https://github.com/yourusername/diabetes-prediction-logistic.git
-cd diabetes-prediction-logistic
+git clone https://github.com/Mand4l0rian/Diabetes-Predictor.git
+cd Diabetes-Predictor
 
 #Install dependencies
 pip install -r requirements.txt
